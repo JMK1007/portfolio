@@ -9,9 +9,9 @@
 
   --color-dark-white: #bdbdbd;
 
-  --color-violet: #a8b1fd;
+  --color-violet: #c782ffea;
 
-  --color-dark-violet: #6332d49a;
+  --color-dark-violet: #6332d471;
 
   --color-dark-grey: #4d4d4d;
 
@@ -137,6 +137,7 @@ p {
   padding: 16px;
   background-color: transparent;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 #navbar.navbar--dark {
   background-color: var(--color-violet);
@@ -181,7 +182,7 @@ p {
 /* Home */
 
 #home {
-  background: url(images/background5.png) center/cover no-repeat;
+  background: url(images/6.jpg) center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
