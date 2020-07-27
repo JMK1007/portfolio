@@ -196,7 +196,6 @@ p {
 .section {
   padding: 50px;
   text-align: center;
-
   margin: auto;
 }
 .section__container {
@@ -345,8 +344,6 @@ p {
 
 .work__projects {
   display: flex;
-  max-width: 1200px;
-  margin: auto;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -408,10 +405,6 @@ p {
 
 .testimonials {
   margin: 40px;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
 }
 .testimonial {
   display: flex;
