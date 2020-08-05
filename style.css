@@ -532,6 +532,7 @@ p {
   height: 50px;
   font-size: 40px;
   background-color: var(--color-skyblue);
+  color: var(--color-white);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
