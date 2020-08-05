@@ -46,8 +46,7 @@ homeContactBtn.addEventListener('mouseleave', () => {
   homeOpacity(homeContactBtn);
 });
 
-// Arrow up button
-
+// Show "arrow up" button when scrolling down
 const arrowUp = document.querySelector('.arrow-up');
 document.addEventListener('scroll', () => {
   if (window.scrollY > homeHeight / 2) {
@@ -60,6 +59,8 @@ document.addEventListener('scroll', () => {
 arrowUp.addEventListener('click', () => {
   scrollIntoView('#home');
 });
+
+// filtering projects when press a button
 
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
