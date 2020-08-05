@@ -11,7 +11,7 @@
 
   --color-blur-white: #ffffff17;
 
-  --color-violet: #a45effea;
+  --color-violet: #a45efff8;
 
   --color-dark-violet: #6416adb0;
 
@@ -450,9 +450,9 @@ p {
   display: block;
   position: relative;
   left: 50%;
-  width: 25px;
+  width: 40px;
   height: 2px;
-  margin-left: -12px;
+  transform: translateX(-50%);
   margin-top: 8px;
   background-color: var(--color-dark-white);
 }
@@ -558,14 +558,21 @@ p {
   #navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--color-light-black);
+  }
+  #navbar.navbar--dark {
+    padding: 16px;
+    background-color: var(--color-violet);
   }
   .navbar__menu {
     flex-direction: column;
     width: 100%;
-    align-items: center;
+    text-align: center;
     display: none;
   }
-
+  .navbar__menu.open {
+    display: block;
+  }
   .about__majors {
     flex-direction: column;
   }
@@ -583,5 +590,8 @@ p {
   .testimonial__avatar {
     width: 80px;
     height: 80px;
+  }
+  .arrow-up {
+    right: 30px;
   }
 }
